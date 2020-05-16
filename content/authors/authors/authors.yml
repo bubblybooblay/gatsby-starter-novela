@@ -1,21 +1,12 @@
-- name: Xiindiie S
-  bio: |
-    Written by Xiindiie S who currently lives in Kuala Lumpur. 
-    You should follow her on Instagram.
-  avatar: ./avatars/Cindy_Sim.jpg
-  featured: true
-  social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
-
-- name: Dennis Brotzky
-  bio: |
-    Written by Dennis Brotzky who lives and works in Vancouver building useful things.
-    You should follow him on Twitter.
-  avatar: ./avatars/brotzky-avatar.jpg
-  featured: false
-  social:
-    - url: https://unsplash.com
-    - url: https://stackoverflow.com
-    - url: https://github.com
+name: Dennis Brotzky
+bio: |
+  Written by You. This is where your author bio lives. Share your work, your
+  joys and of course, your Twitter handle.
+avatar: ./avatars/dennis-brotzky.jpg
+social:
+  - url: https://unsplash.com
+  - url: https://stackoverflow.com
+  - url: https://github.com
+  - url: https://github.com
+  - url: https://github.com
+featured: true
