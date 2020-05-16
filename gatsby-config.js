@@ -1,25 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `douchimon`,
-    name: `douchimon`,
-    siteUrl: `https://douchimon.com`,
-    description: `Personal Development, Technology, Book Reviews, Game Reviews`,
+    title: `Novela by Narative`,
+    name: `Narative`,
+    siteUrl: `https://novela.narative.co`,
+    description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Douchimon = Black Bean Monster.`,
+      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/cindysimxy`,
+        url: `https://twitter.com/narative`,
       },
       {
         name: `github`,
-        url: `https://github.com/bubblybooblay`,
+        url: `https://github.com/narative`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/xiindiie.s`,
+        url: `https://instagram.com/narative.co`,
       },
       {
         name: `linkedin`,
