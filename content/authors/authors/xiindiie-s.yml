@@ -1,0 +1,21 @@
+- name: Xiindiie S
+  bio: |
+    Written by Xiindiie S who lives and works in Vancouver building useful things.
+    You should follow him on Twitter.
+  avatar: ./avatars/Cindy_Sim.jpg
+  featured: true
+  social:
+    - url: https://unsplash.com
+    - url: https://stackoverflow.com
+    - url: https://github.com
+
+- name: Dennis Brotzky
+  bio: |
+    Written by Dennis Brotzky who lives and works in Vancouver building useful things.
+    You should follow him on Twitter.
+  avatar: ./avatars/brotzky-avatar.jpg
+  featured: false
+  social:
+    - url: https://unsplash.com
+    - url: https://stackoverflow.com
+    - url: https://github.com
