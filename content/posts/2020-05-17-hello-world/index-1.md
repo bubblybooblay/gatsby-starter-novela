@@ -15,13 +15,10 @@ After a lot of whining, head-scratching and I-Don't-Know-What-Else, this website
 
 The tools I used to build this site: 
 
-1. Netlify (Hosting)
-
-2. Netlify CMS (Content Management System) 
-
-3. Gatsby (Static Site Generator - React based, GraphQL powered)
-
-4. GitHub (Version Control) 
+1. [Netlify](netlify.com) (Hosting)
+2. [Netlify CMS](netlifycms.org) (Content Management System - what I use to publish the posts) 
+3. [Gatsby](https://www.gatsbyjs.org/) (Static Site Generator - React based, GraphQL powered)
+4. [GitHub](github.com) (Version Control, Backend) 
 
 What is still missing is a domain name provider. I am still working on it and it will eventually come through. 
 
