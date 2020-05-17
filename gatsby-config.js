@@ -1,28 +1,28 @@
 module.exports = {
   siteMetadata: {
-    title: `Douchi-mon`,
-    name: `douchimon`,
-    siteUrl: `https://douchimon.io`,
-    description: `A blog on personal development, book reviews, travels, game reviews and technology.`,
+    title: `Douchimon`,
+    name: `Douchimon`,
+    siteUrl: `https://novela.narative.co`,
+    description: `This is where I blog about personal development, book reviews, game reviews and my occassional dabble in technology.`,
     hero: {
-      heading: `The Adventure of Douchimon`,
-      maxWidth: 1000,
+      heading: `The Adventure of Douchimon, The Black Bean Monster.`,
+      maxWidth: 800,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/cindysimxy`,
+        url: `https://twitter.com/narative`,
       },
       {
         name: `github`,
-        url: `https://github.com/bubblybooblay`,
+        url: `https://github.com/narative`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/xiindiie.s`,
+        url: `https://instagram.com/narative.co`,
       },
       {
-        name: `facebook`,
+        name: `linkedin`,
         url: `https://www.linkedin.com/company/narative/`,
       },
       {
@@ -38,7 +38,6 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        mailchimp: true,
         authorsPage: true,
         sources: {
           local: true,
@@ -61,12 +60,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: 'https://app.us18.list-manage.com/subscribe/post?u=15859562dbe26a22904ab25c1&amp;id=22022a4094', // add your MC list endpoint here; see plugin repo for instructions
       },
     },
   ],
