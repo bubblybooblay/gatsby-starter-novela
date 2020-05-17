@@ -5,8 +5,8 @@ module.exports = {
     siteUrl: `https://douchimon.io`,
     description: `A blog on personal development, book reviews, travels, game reviews and technology.`,
     hero: {
-      heading: `Douchimon, The Black Bean Monster`,
-      maxWidth: 652,
+      heading: `Douchimon! `,
+      maxWidth: 1000,
     },
     social: [
       {
@@ -22,7 +22,7 @@ module.exports = {
         url: `https://instagram.com/xiindiie.s`,
       },
       {
-        name: `linkedin`,
+        name: `facebook`,
         url: `https://www.linkedin.com/company/narative/`,
       },
       {
