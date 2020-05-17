@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://douchimon.io`,
     description: `A blog on personal development, book reviews, travels, game reviews and technology.`,
     hero: {
-      heading: `Douchimon! `,
+      heading: `The Adventure of Douchimon`,
       maxWidth: 1000,
     },
     social: [
@@ -38,6 +38,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        mailchimp: true,
         authorsPage: true,
         sources: {
           local: true,
@@ -60,6 +61,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://app.us18.list-manage.com/subscribe/post?u=15859562dbe26a22904ab25c1&amp;id=22022a4094', // add your MC list endpoint here; see plugin repo for instructions
       },
     },
   ],
