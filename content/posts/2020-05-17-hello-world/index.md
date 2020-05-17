@@ -14,10 +14,11 @@ One day, I decided to venture into this realm, that of the free hosting and that
 After a lot of whining, head-scratching and I-Don't-Know-What-Else, this website has come to fruition!
 
 The tools I used to build this site:
-1. (https://www.netlify.com "Netlify") (Hosting)
-2. (https://www.netlifycms.org "Netlify CMS") (Content Management System - what I use to publish the posts)
-3. (https://www.gatsbyjs.org "Gatsby") (Static Site Generator - React based, GraphQL powered)
-4. (https://www.github.com "GitHub") (Version Control, Backend)
+
+1. [Netlify](https://www.netlify.com "Netlify") (Hosting)
+2. [Netlify CMS](https://www.netlifycms.org "Netlify CMS") (Content Management System - what I use to publish the posts)
+3. [Gatsby](https://www.gatsbyjs.org "Gatsby") (Static Site Generator - React based, GraphQL powered)
+4. [GitHub](https://www.github.com "GitHub") (Version Control, Backend)
 
 What is still missing is a domain name provider. I am still working on it and it will eventually come through.
 
