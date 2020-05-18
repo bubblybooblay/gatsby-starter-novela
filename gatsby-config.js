@@ -5,8 +5,8 @@ module.exports = {
     siteUrl: `https://www.beanmusing.com`,
     description: `This is where I blog about personal development, book reviews, game reviews and my occassional dabble in technology.`,
     hero: {
-      heading: `Musing Over Tea`,
-      maxWidth: 800,
+      heading: `Yet Another Sheep On The Internet`,
+      maxWidth: 500,
     },
     social: [
       {
@@ -52,6 +52,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-166982234-1",
+        anonymize: true,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint:
+          "https://app.us18.list-manage.com/subscribe/post?u=15859562dbe26a22904ab25c1&amp;id=22022a4094",
       },
     },
   ],

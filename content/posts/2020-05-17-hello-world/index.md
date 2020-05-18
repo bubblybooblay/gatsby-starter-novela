@@ -12,6 +12,7 @@ The world of computers is a scary place, particularly for the uninitiated.
 One day, I decided to venture into this realm, that of the free hosting and that of the 'static site'. After a lot of whining, head-scratching and I-Don't-Know-What-Else, this website has come to fruition!
 
 To self-host (i.e. the site is owned by you, not wordpress.com or Google) a website, the typical steps go like this: 
+
 1. Choose a **Content Management System** ("CMS") - the most popular one being Wordpress.com
 2. Select a **Hosting Service Provider** - you will pay monthly fees for this service
 3. Purchase a **Domain Name** from a Domain Registrar (sometimes you can buy it off the host)
@@ -29,7 +30,7 @@ The tools I used to build this site:
 2. [Netlify CMS](https://www.netlifycms.org "Netlify CMS") (Content Management System - what I use to publish the posts)
 3. [Gatsby](https://www.gatsbyjs.org "Gatsby") (Static Site Generator - React based, GraphQL powered)
 4. [GitHub](https://www.github.com "GitHub") (Version Control, Backend)
-5. [Namesilo](namesilo.com) (Domain Registrar)
+5. [Namesilo](https://www.namesilo.com/register.php?rid=f991a20mf) (Domain Registrar, Affiliate Link)
 6. [Inkscape](inkscape.org) (Logo Design - I drew the image by hand and used Inkscape to generate SVG)
 
 **Operating Cost**: USD 8 (I only paid for the domain name!)
