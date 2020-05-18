@@ -1,33 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Douchimon`,
-    name: `Douchimon`,
-    siteUrl: `https://novela.narative.co`,
+    title: `Bean Musing`,
+    name: `Bean Musing`,
+    siteUrl: `https://www.beanmusing.com`,
     description: `This is where I blog about personal development, book reviews, game reviews and my occassional dabble in technology.`,
     hero: {
-      heading: `The Adventure of Douchimon, The Black Bean Monster.`,
+      heading: `Musing Over Tea`,
       maxWidth: 800,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/cindysimxy`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/bubblybooblay`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://instagram.com/xiindiie.s`,
       },
     ],
   },
