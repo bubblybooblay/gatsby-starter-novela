@@ -80,9 +80,10 @@ Edit the author detail in content > posts - make sure the author name matches **
 
 The step for Favicon is pretty straightforward - you just swap out the picture in src > assets > favicon.png - make sure your new file has the same name as the original file.
 
-The logo is a little more tricky. I tried to follow the steps in the [Theme Repository](https://github.com/narative/gatsby-theme-novela) but I couldn't get it to work.
+The logo is a little more tricky. Follow the steps in the [Theme Repository](https://github.com/narative/gatsby-theme-novela) by creating a new folder structure:
+src > @narative > gatsby-theme-novela > components > Logo, and add a new file Logo.tsx. 
 
-Luckily for me, I found Mario Basic's [post](https://blog.mariobasic.com/2019/08/27/novela-gatsby-js) re: the settings of SVG file, and his [GitHub Repo](https://github.com/mabasic/mariobasic-blog) was super helpful. 
+Mario Basic's [post](https://blog.mariobasic.com/2019/08/27/novela-gatsby-js "Novela ❤️ Gatsby.js") re: the settings of SVG file, and his [GitHub Repo](https://github.com/mabasic/mariobasic-blog) was super helpful in helping me get my logo up and running. 
 
 ## 9. Check if your Updates are Working
 
@@ -103,7 +104,17 @@ You can do it locally / remotely:
 
 *  Append /admin at your Netlify site, gain authorization and publish there. 
 
-Okay, I think that is all for now. I will update this post as I figure more things out. Ignore the content below as I am still keeping them around for references. 
+Okay, I think that is all for now. I will update this post as I figure more things out. Ignore the content below as I am still keeping them around for references.
+
+## 11. Additional Plugins
+
+I also added Google Analytics and Mailchimp to my site. 
+
+For Mailchimp, I operated based on the steps in the [Theme Repository](https://github.com/narative/gatsby-theme-novela) and some help from [Gatsby's documentation](https://www.gatsbyjs.org/packages/gatsby-plugin-mailchimp/)
+
+For Google Analytics, I referred to:
+[Adding Google Analytics to Gatsby - with Privacy Setting](https://aiki-developer.com/blog/gatsby-google-analytics)
+
 
 - - - 
 

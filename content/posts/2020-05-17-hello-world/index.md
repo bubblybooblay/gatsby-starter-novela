@@ -26,12 +26,14 @@ However, if you want to do it my way (the low-cost way), the entry barrier is _s
 
 The tools I used to build this site:
 
+You can read the step-by-step guide here: [How to Set Up Novela Starter Theme](beanmusing.com/How-to-Set-Up-Novela-Starter-Theme)):
+
 1. [Netlify](https://www.netlify.com "Netlify") (Hosting)
 2. [Netlify CMS](https://www.netlifycms.org "Netlify CMS") (Content Management System - what I use to publish the posts)
 3. [Gatsby](https://www.gatsbyjs.org "Gatsby") (Static Site Generator - React based, GraphQL powered)
 4. [GitHub](https://www.github.com "GitHub") (Version Control, Backend)
-5. [Namesilo](https://www.namesilo.com/register.php?rid=f991a20mf) (Domain Registrar, Affiliate Link)
-6. [Inkscape](inkscape.org) (Logo Design - I drew the image by hand and used Inkscape to generate SVG)
+5. [Namesilo](https://www.namesilo.com/register.php?rid=f991a20mf "Namesilo - Affiliate Link") (Domain Registrar)
+6. [Inkscape](inkscape.org "Inkscape") (Logo Design - I drew the image by hand and used Inkscape to generate SVG)
 
 **Operating Cost**: USD 8 (I only paid for the domain name!)
 
