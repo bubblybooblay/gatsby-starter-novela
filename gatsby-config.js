@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://www.beanmusing.com`,
     description: `This is where I blog about personal development, book reviews, game reviews and my occassional dabble in technology.`,
     hero: {
-      heading: `Yet Another Sheep On The Internet`,
+      heading: `Yet Another GOAT On The Internet`,
       maxWidth: 500,
     },
     social: [

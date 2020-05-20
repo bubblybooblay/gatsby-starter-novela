@@ -1,10 +1,12 @@
 ---
-title: How to Set Up Novela Starter Theme
+title: How to Host Your Website for FREE
 author: Cindy S
 date: '2020-05-16'
 excerpt: Rebranding and the likes.
 hero: ./images/hero.jpg
 ---
+In this post, I will detail the steps I took to host my website for free using Netlify.
+
 ## 1. Sign up for GitHub and Netlify
 
 If you haven't. 
@@ -115,6 +117,7 @@ For Mailchimp, I operated based on the steps in the [Theme Repository](https://g
 For Google Analytics, I referred to:
 [Adding Google Analytics to Gatsby - with Privacy Setting](https://aiki-developer.com/blog/gatsby-google-analytics)
 
+If you like my content, do sign up for my newsletter below! I don't spam and I guess I will hardly send one if there's nothing interesting. : )
 
 - - - 
 
@@ -182,7 +185,6 @@ Some text to show that the reference links can follow later.
   />
 </div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 
 ## Code and Syntax Highlighting
 
@@ -210,11 +212,7 @@ export default props => (
 
 ## Blockquotes
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
-
 > Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
 ## Horizontal Rule
 
@@ -224,8 +222,5 @@ Three or more...
 
 - - -
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
 
-- - -
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
