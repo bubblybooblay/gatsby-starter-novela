@@ -3,15 +3,15 @@ module.exports = {
     title: `Bean Musing`,
     name: `Bean Musing`,
     siteUrl: `https://www.beanmusing.com`,
-    description: `This is where I blog about personal development, book reviews, game reviews and my occassional dabble in technology.`,
+    description: `This is where I blog about personal finance, book reviews, game reviews and my occassional dabble in technology.`,
     hero: {
-      heading: `Be Amused`,
+      heading: `Count The Beans`,
       maxWidth: 500,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/cindysimxy`,
+        url: `https://twitter.com/moneymoniess`,
       },
       {
         name: `github`,
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/xiindiie.s`,
+        url: `https://instagram.com/moneymoniess`,
       },
     ],
   },

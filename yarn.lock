@@ -6553,6 +6553,11 @@ gatsby-paginate@^1.1.0:
   dependencies:
     path "^0.12.7"
 
+gatsby-plugin-disqus@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.1.6.tgz#14783227752a21b4e1a7ef65a9792541c26115ce"
+  integrity sha512-e9WmJBpzMSMd7RECEC0vCTAP/5HT3YhTvQUl32lYwoZspdpeRh9YX/sDu9uCeZiVPM8HhjdZWw+9K1PloJ+Heg==
+
 gatsby-plugin-emotion@^4.1.2:
   version "4.1.22"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-4.1.22.tgz#e153debef74afa205336738dcf1988c95b308c4f"

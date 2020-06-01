@@ -2,7 +2,7 @@
 title: How to Host Your Website for FREE
 author: Cindy S
 date: '2020-05-16'
-excerpt: Rebranding and the likes.
+excerpt: Step-by-step guide to build your own static site
 hero: ./images/hero.jpg
 ---
 In this post, I will detail the steps I took to host my website for free using Netlify.
