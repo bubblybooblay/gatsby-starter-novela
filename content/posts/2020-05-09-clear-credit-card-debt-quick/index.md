@@ -3,9 +3,9 @@ title: How to Clear 5-Fig Credit Card Debt Quick
 author: Cindy S
 date: '2020-05-09'
 excerpt: Tips on how to get rid of RM40k of credit card debt .
-hero: ./images/alley.jpg
+hero: ./images/snow.jpg
 ---
-*Photo by Pixabay from [Pexels](https://www.pexels.com/photo/abandoned-alley-architecture-blue-208560/)* 
+*Photo by Denis Linine from [Pexels](https://www.pexels.com/photo/mountain-ranges-covered-in-snow-714258/)* 
 
 *Post originally appeared in [Money Monies](https://moneymonies.business.blog/2020/05/09/how-to-clear-credit-card-debt-quick/)*
 

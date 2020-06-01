@@ -3,9 +3,9 @@ title: Malaysia Medical Insurance 101
 author: Cindy S
 date: '2020-05-07'
 excerpt: All you need to know about medical insurance. 
-hero: ./images/insurance.jpg
+hero: ./images/warning.jpg
 ---
-*Photo by Pixabay from [Pexels](https://www.pexels.com/photo/man-standing-on-rock-against-clear-blue-sky-256894/)* 
+*Photo by ready made from [Pexels](https://instagram.com/kiraschwarz)* 
 
 *Post originally appeared in [Money Monies](https://moneymonies.business.blog/2020/05/07/do-you-need-medical-insurance-malaysia/)*
 
