@@ -72,7 +72,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-disqus',
       options: {
-        shortname: 'GATSBY_DISQUS_NAME',
+        shortname: "beanmusing",
       },
     },
   ],
