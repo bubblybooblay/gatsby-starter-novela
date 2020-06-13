@@ -58,7 +58,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-166982234-1",
+        trackingId: "ANALYTICS_ID",
         anonymize: true,
       },
     },
@@ -67,6 +67,12 @@ module.exports = {
       options: {
         endpoint:
           "https://app.us18.list-manage.com/subscribe/post?u=15859562dbe26a22904ab25c1&amp;id=22022a4094",
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-disqus',
+      options: {
+        shortname: 'GATSBY_DISQUS_NAME',
       },
     },
   ],
