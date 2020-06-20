@@ -2,7 +2,7 @@
 title: 'About Me'
 author: Cindy S
 date: 2020-06-20
-# secret: true
+secret: true
 slug: about
 hero: './images/cindy-s.jpg'
 ---
