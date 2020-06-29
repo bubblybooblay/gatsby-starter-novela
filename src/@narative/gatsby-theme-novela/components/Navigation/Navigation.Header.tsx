@@ -149,15 +149,15 @@ const NavigationHeader: React.FC<{}> = () => {
               <Hidden>About Me</Hidden>
             </LogoLink>
             <LogoLink
-                to="/resources/"
+                to="/referrals/"
                 data-a11y="false"
-                title="Resources"
-                aria-label="Resources"
+                title="Referrals"
+                aria-label="Referrals"
                 back="false"
                 home="false"
               >
                 <StatsLogo fill={fill} />
-                <Hidden>Resources</Hidden>
+                <Hidden>Referrals</Hidden>
               </LogoLink>
               <SharePageButton />
               <DarkModeToggle />
