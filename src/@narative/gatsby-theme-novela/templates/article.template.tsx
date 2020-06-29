@@ -13,16 +13,13 @@ import mediaqueries from "@styles/media";
 import { debounce } from "@utils";
 
 import ArticleAside from "@narative/gatsby-theme-novela/src/sections/article/Article.Aside";
-import ArticleHero from "@narative/gatsby-theme-novela/src/sections/article/Article.Hero";
+import ArticleHero from "../sections/article/Article.Hero";
 import ArticleControls from "@narative/gatsby-theme-novela/src/sections/article/Article.Controls";
 import ArticlesNext from "@narative/gatsby-theme-novela/src/sections/article/Article.Next";
-import ArticleSEO from "@narative/gatsby-theme-novela/src/sections/article/Article.SEO";
+import ArticleSEO from "../sections/article/Article.SEO";
 import ArticleShare from "@narative/gatsby-theme-novela/src/sections/article/Article.Share";
 
 import { Template } from "@types";
-
-// Custom imports here:
-import { Disqus } from 'gatsby-plugin-disqus'
 
 const siteQuery = graphql`
   {
@@ -31,7 +28,6 @@ const siteQuery = graphql`
         node {
           siteMetadata {
             name
-            siteUrl
           }
         }
       }
@@ -47,9 +43,8 @@ const Article: Template = ({ pageContext, location }) => {
 
   const results = useStaticQuery(siteQuery);
   const name = results.allSite.edges[0].node.siteMetadata.name;
-  const siteURL = results.allSite.edges[0].node.siteMetadata.siteUrl;
 
-  const { article, authors, mailchimp, next } = pageContext;
+  const { article, authors, mailchimp, next, tags } = pageContext;
 
   useEffect(() => {
     const calculateBodySize = throttle(() => {
@@ -85,16 +80,10 @@ const Article: Template = ({ pageContext, location }) => {
     return () => window.removeEventListener("resize", calculateBodySize);
   }, []);
 
-  const disqusConfig = {
-    url: `${siteURL + location.pathname}`,
-    identifier: article.id,
-    title: article.title,
-  }
-
   return (
     <Layout>
       <ArticleSEO article={article} authors={authors} location={location} />
-      <ArticleHero article={article} authors={authors} />
+      <ArticleHero article={article} authors={authors} tags={tags} />
       <ArticleAside contentHeight={contentHeight}>
         <Progress contentHeight={contentHeight} />
       </ArticleAside>
@@ -106,11 +95,6 @@ const Article: Template = ({ pageContext, location }) => {
           <ArticleShare />
         </MDXRenderer>
       </ArticleBody>
-
-      <div style={{maxWidth: '680px', margin: '0 auto', marginBottom: '2rem'}}>
-        <Disqus config={disqusConfig} />
-      </div>
-
       {mailchimp && article.subscription && <Subscription />}
       {next.length > 0 && (
         <NextArticle narrow>

@@ -4,6 +4,7 @@ author: Cindy S
 date: '2020-05-07'
 excerpt: All you need to know about medical insurance. 
 hero: ./images/warning.jpg
+tags: ['insurance']
 ---
 *Photo by ready made from [Pexels](https://instagram.com/kiraschwarz)* 
 

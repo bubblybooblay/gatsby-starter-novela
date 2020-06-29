@@ -32,6 +32,7 @@ module.exports = {
         basePath: "/",
         authorsPage: true,
         mailchimp: true,
+        tags: true,
         sources: {
           local: true,
           // contentful: true,
